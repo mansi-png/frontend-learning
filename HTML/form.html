@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username" placeholder="e.g:Mansi"required>
+
+        <br><br>
+
+        <label for="userage">Age:</label>
+        <input type="number" name="userage" id="userage" required >
+        <br><br>
+        <label for="dob">DOB:</label>
+        <input type="date" name="dob" id="dob" required>
+
+        <br><br>
+
+        <label for="userpassword">Password:</label>
+        <input type="password" name="userpassword" id="userpassword" required>
+
+        <br><br>
+
+        <label for="useremail" >Email:</label>
+        <input type="email" name="useremail" id="useremail" required>
+
+        <br><br>
+
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" required>
+
+        <label>Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other" required> 
+
+        <br><br>
+        
+        <p>Upload your photo</p>
+        <input type="file" name="photo" id="photo" required>
+
+        <br><br>
+
+        <label for="c++">C++</label>
+        <input type="checkbox" name="languages" id="c++" value="c++">
+        <label for="python">Python</label>
+        <input type="checkbox" name="languages" id="python" value="python">
+        <label for="java">Java</label>
+        <input type="checkbox" name="languages" id="java" value="java">
+
+         <br><br>
+         
+         <label for="course">Select Your Course:</label>
+         <select name="course" id="course" required>
+            <option value="">--Please choose an option--</option>
+            <option value="btech">B.Tech</option>
+            <option value="mtech">M.Tech</option>
+            <option value="mba">MBA</option>
+         </select>
+         <br><br>
+         <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" required>
+        <br><br>
+        <input type="submit">
+
+
+    </form>
+    
+</body>
+</html>

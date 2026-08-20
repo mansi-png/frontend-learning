@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import Counter from './Counter.jsx'
 import List from './List.jsx'
+import Clock from './Clock.jsx'
 
 // console.log(<h1>Hello, Coder  </h1>);
 // const element=document.createElement('h1');
@@ -24,6 +25,7 @@ import List from './List.jsx'
 
 createRoot(document.getElementById('root')).render(
  
-  <List></List>
+//   <List></List>
+<Clock></Clock>
   
 )
